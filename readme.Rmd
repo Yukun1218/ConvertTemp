@@ -18,15 +18,14 @@ output:
 
     2 of them is temperature converting functions: 'c_to_f()', 
     converting celsius to fahrenheit,
-    \hfill\break
     and 'f_to_c()', converting fahrenheit to celsius, 
     pretty self explanatory.
 
     The rest 10 functions provide melting point of 10 kinds of metal: 
-    **gold, silver, coper, zinc, iron, magnesium, tin, titanium, lead and aluminum.** 
+    gold, silver, coper, zinc, iron, magnesium, tin, titanium, lead and aluminum. 
     The function takes an argument of either "f" or "c", standing for fahrenheit and celsius seperatly.
-    \hfill\break
-    
+  
+  
     Example: 
 
 ```{r}

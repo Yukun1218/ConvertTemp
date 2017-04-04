@@ -1,0 +1,271 @@
+---
+title: "ConvertTemp Documentation"
+author: "Yukun Wang"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+##Version: 0.1.0
+
+##Description: 
+    This package serve the aim to convert temperature between fahrenheit
+    and celsius degree, and provide reference on melting points of 10 kinds 
+    of common metal: 
+
+- Aluminum
+- Coper
+- Lead
+- Gold
+- Iron
+- Lead
+- Magnesium
+- tin
+- Titanium 
+- Zinc
+
+## Imports: 
+- no requirement.
+
+## Suggests: 
+- no requirement.
+
+## VignetteBuilder: 
+- Rmarkdown
+
+## License: 
+- MIT
+
+----------------------------------------------------------------
+
+## Functions
+
+_**c_to_f()**_
+
+###Description
+
+    Convert Celsium to Fahrenheit.
+
+###Usage
+
+    C_to_f(...)
+
+###Argument
+
+    ...   numeric numbers
+  
+###Examples
+
+    c_to_f(18)
+
+----------------------------------------------------------------    
+    
+_**f_to_c()**_
+
+###Description
+
+    Convert Fahrenheit to Celsium.
+
+###Usage
+
+    f_to_c(...)
+
+###Argument
+
+    ...   numeric numbers
+  
+###Examples
+
+    f_to_c(75)
+    
+----------------------------------------------------------------
+
+    
+_**goldmelt()**_
+
+###Description
+
+    Return the melting point of gold in both Fahrenheit and Celsium.
+
+###Usage
+
+    goldmelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    goldmelt('f')
+    
+-----------------------------------------------------------------
+
+_**silvermelt()**_
+
+###Description
+
+    Return the melting point of silver in both Fahrenheit and Celsium.
+
+###Usage
+
+    silvermelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    silvermelt('f')
+  
+-----------------------------------------------------------------
+
+_**aluminummelt()**_
+
+###Description
+
+    Return the melting point of aluminum in both Fahrenheit and Celsium.
+
+###Usage
+
+    aluminummelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    aluminummelt('f')
+
+-----------------------------------------------------------------
+
+_**zincmelt()**_
+
+###Description
+
+    Return the melting point of zinc in both Fahrenheit and Celsium.
+
+###Usage
+
+    zincmelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    zincmelt('f')
+    
+-----------------------------------------------------------------
+
+_**leadmelt()**_
+
+###Description
+
+    Return the melting point of lead in both Fahrenheit and Celsium.
+
+###Usage
+
+    leadmelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    leadmelt('f')
+    
+-----------------------------------------------------------------
+
+_**tinmelt()**_
+
+###Description
+
+    Return the melting point of tin in both Fahrenheit and Celsium.
+
+###Usage
+
+    tinmelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    tinmelt('f')
+    
+------------------------------------------------------------------
+
+_**magnesiummelt()**_
+
+###Description
+
+    Return the melting point of magnesium in both Fahrenheit and Celsium.
+
+###Usage
+
+    magnesiummelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    magnesiummelt('f')
+
+------------------------------------------------------------------
+
+_**titaniummelt()**_
+
+###Description
+
+    Return the melting point of titanium in both Fahrenheit and Celsium.
+
+###Usage
+
+    titaniummelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    titaniummelt('f')
+    
+------------------------------------------------------------------
+
+_**copermelt()**_
+
+###Description
+
+    Return the melting point of coper in both Fahrenheit and Celsium.
+
+###Usage
+
+    copermelt(...)
+
+###Argument
+
+    ...   'f' or 'c' (with quote), input 'f' leads to output in Fahrenheit;
+          input 'c' leads to output in Celsium.
+  
+###Examples
+
+    copermelt('f')

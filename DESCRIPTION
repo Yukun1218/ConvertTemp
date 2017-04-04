@@ -4,13 +4,15 @@ Title: Temperature Convertor
 Version: 0.1.0
 Author: Yukun Wang
 Maintainer: The package maintainer <daisywang@gwu.edu>
-Description: 
+Description:
     This package serve the aim to convert temperature between fahrenheit
     and celsius degree, and provide reference on melting points of 10 kinds 
     of common metal: Aluminum, Coper, Lead, Gold, Iron, Lead, Magnesium, tin, 
     Titanium and Zinc.
-    
-License: MIT
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.0.1
+License: NA
+Encoding: NA
+LazyData: NA
+RoxygenNote: NA
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

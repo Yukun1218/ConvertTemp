@@ -1,12 +1,12 @@
 ---
 title: "ConvertTemp Documentation"
 author: "Yukun Wang"
-date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+date: "April 4th, 2017"
+output: rmarkdown
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+  ConvertTemp Documentation
+  VignetteEngine{knitr::rmarkdown}
+  VignetteEncoding{UTF-8}
 ---
 ##Version: 0.1.0
 

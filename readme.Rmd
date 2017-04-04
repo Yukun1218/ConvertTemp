@@ -1,0 +1,10 @@
+---
+title: "my_package"
+author: "Yukun wang"
+date: "April 4, 2017"
+output: html_document
+---
+
+## How this works
+
+These are instructions to how my package works

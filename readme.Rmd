@@ -1,13 +1,29 @@
 ---
-title: "my_package"
+title: "ConvertTemperature"
 author: "Yukun wang"
 date: "April 4, 2017"
-output: html_document
+output:
+  html_document: default
+  word_document: default
 ---
 
 ## How this works
 
-These are instructions to how my package works
 
-More instructions will come here
+    This package serve the aim to convert temperature between fahrenheit and celsius degree, and provide reference on melting points of 10 kinds of common metal: 
+
+    It contains 12 functions:
+
+    2 of them is temperature converting functions: 'c_to_f()', converting celsius to fahrenheit, and 'f_to_c()', converting fahrenheit to celsius, pretty self explanatory.
+
+    The rest 10 functions provide melting point of 10 kinds of metal: gold, silver, coper, zinc, iron, magnesium, tin, titanium, lead and aluminum. The function takes an argument of either "f" or "c", standing for fahrenheit and celsius seperatly.Example: 
+
+```{r}
+library(ConvertTemp)
+
+goldmelt('f')
+goldmelt('c')
+
+print(paste("Today's temperature is", c_to_f(18), 'Fahrenheit.'))
+```
 

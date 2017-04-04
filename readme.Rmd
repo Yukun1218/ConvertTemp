@@ -8,3 +8,6 @@ output: html_document
 ## How this works
 
 These are instructions to how my package works
+
+More instructions will come here
+

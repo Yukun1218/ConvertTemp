@@ -17,7 +17,8 @@ output:
     It contains 12 functions:
 
     2 of them is temperature converting functions: 'c_to_f()', 
-    converting celsius to fahrenheit, 
+    converting celsius to fahrenheit,
+    \hfill\break
     and 'f_to_c()', converting fahrenheit to celsius, 
     pretty self explanatory.
 

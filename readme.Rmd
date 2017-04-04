@@ -12,13 +12,16 @@ output:
 
     This package serve the aim to convert temperature between fahrenheit
     and celsius degree, and provide reference on melting points of 10 kinds 
-    of common metal: 
+    of common metal: Aluminum, Coper, Lead, Gold, Iron, Lead, Magnesium, tin, 
+    Titanium and Zinc.
 
     It contains 12 functions:
 
-    2 of them is temperature converting functions: 'c_to_f()', 
+    2 of them is temperature converting functions: 
+    'c_to_f()', 
     converting celsius to fahrenheit,
-    and 'f_to_c()', converting fahrenheit to celsius, 
+    and 'f_to_c()', 
+    converting fahrenheit to celsius, 
     pretty self explanatory.
 
     The rest 10 functions provide melting point of 10 kinds of metal: 
